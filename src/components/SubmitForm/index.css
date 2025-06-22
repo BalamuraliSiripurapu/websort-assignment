@@ -27,7 +27,7 @@
     margin-bottom: 18px;
     margin-top: 6px;
     @media screen and (min-width: 768px) {
-        width: 26%;
+        width: 30%;
         align-items: center;
     }
 }
