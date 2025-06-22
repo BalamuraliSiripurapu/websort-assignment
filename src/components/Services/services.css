@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@400;700&family=Montaga:wght@400;700&family=Jacques+Francois:wght@400;700&display=swap&');
+
+.services-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.services-responsive-container {
+    background-image: url("https://res.cloudinary.com/dejfd8kle/image/upload/v1750477627/Rectangle_162_1_m2xmnn.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+    @media screen and (min-width: 768px) {
+        background-image: url("https://res.cloudinary.com/dejfd8kle/image/upload/v1750477433/Rectangle_162_aclgcj.png");
+    }
+}
+
+.services-heading {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    @media screen and (min-width: 768px) {
+        font-size: 50px;
+    } 
+}
+
+.services-list {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

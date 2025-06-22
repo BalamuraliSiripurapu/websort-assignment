@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@400;700&family=Montaga:wght@400;700&family=Jacques+Francois:wght@400;700&display=swap&');
+
+.careers-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.careers-responsive-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+}
+
+.careers-banner-container {
+    background-image: url("https://res.cloudinary.com/dejfd8kle/image/upload/v1750438662/image_2_vrjfsg.png");
+    background-size: cover;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    @media screen and (min-width: 768px) {
+        background-image: url("https://res.cloudinary.com/dejfd8kle/image/upload/v1750434265/image_pbayob.png");
+        height: 500px;
+        padding: 100px;
+    }
+}
+
+.banner-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media screen and (min-width: 768px) {
+      flex-direction: row; 
+    }
+}
+
+.careers-image {
+    width: 320px;
+    height: 213px;
+    border-radius: 14px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    @media screen and (min-width: 768px) {
+        width: 640px;
+        height: 350px;
+        border-radius: 51px;
+        margin: 0px;
+    }
+}
+
+.banner-text-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 24px;
+}
+
+.banner-heading {
+    color: #FFFFFF;
+    font-family: "Montaga";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0%;
+}
+
+.mobile-banner-description{
+    color: #FFFFFF;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
+
+.desktop-banner-description{
+    color: #FFFFFF;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
+}
+
+.internships-container {
+    background-image: url("https://res.cloudinary.com/dejfd8kle/image/upload/v1750437254/image_8_wgrlke.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    @media screen and (min-width: 768px) {
+        padding: 36px;
+    }
+}
+
+.internships-heading {
+    color: #FFFFFF;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    @media screen and (min-width: 768px) {
+        font-size: 35px;
+    }
+}
+
+.internships-description {
+    color: #FFFFFF;
+    font-family: "Montaga";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
+
+.internships-list {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+.internship-card {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 16px;
+    @media screen and (min-width: 768px) {
+        flex-direction: column;
+        margin: 36px;
+    }
+}
+
+.internship-image {
+    width: 190px;
+    height: 106px;
+    margin-right: 24px;
+    @media screen and (min-width: 768px) {
+        width: 314px;
+        height: 172px;
+    }
+}
+
+.internship-name {
+    color: #FFFFFF;
+    font-family: "Montaga";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    @media screen and (min-width: 768px) {
+        font-size: 25px;
+    }
+}
+
+.careers-form-container {
+    background-image: url("https://res.cloudinary.com/dejfd8kle/image/upload/v1750412777/image_20_x0ypxb.png");
+    background-size: cover;
+    height: 510px;
+    padding: 16px;
+    @media screen and (min-width: 768px) {
+        background-image: url("https://res.cloudinary.com/dejfd8kle/image/upload/v1750415385/image_20_1_qn30mu.png");
+        height: 868px;
+    }
+}
+
+.form-heading {
+    color: #FFFFFF;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 100%;
+    @media screen and (min-width: 768px) {
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mplus+1p+Bold:wght@400;700&family=Inter:wght@400;700&family=Mandali:wght@400;700&family=Fustat:wght@400;700&family=Jacques+Francois:wght@400;700&display=swap&');
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.home-responsive-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    @media screen and (min-width: 768px) {
+        background-image: url("https://res.cloudinary.com/dejfd8kle/image/upload/v1750600193/3b620957809c3fb77ac1fa1a8b1360f754ea9e36_yxd8i2.png");
+        background-size: cover;
+    }
+}
+
+.projects-background-1 {
+    background-color: #1E2755D1;
+}
+
+
+.projects-background-2 {
+    background-color: #0E0A25;
+}
+
+.carousel-wrapper {
+  padding: 40px 0;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.carousel-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.project-swiper {
+  padding-bottom: 40px;
+}
+
+.swiper-slide {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.slide-card {
+  background: transparent;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  overflow: hidden;
+  width: 240px;
+  height: 388px;
+  transition: border 0.3s ease;
+  margin-left: 24px;
+  margin-right: 24px;
+  @media screen and (min-width: 768px) {
+    width: 682px;
+    height: 760px;
+    border-radius: 42px;
+    margin-left: 144px;
+    margin-right: 144px;
+  }
+}
+
+.slide-card-img {
+  width: 100%;
+  height: 100%;
+}
+
+.slide-card-title {
+  margin: 16px;
+  font-weight: 600;
+  font-family: "Mukta";
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+    margin: 24px;
+  }
+}
+
+.swiper-slide-active .slide-card {
+  border: 2px solid #00aaff;
+}

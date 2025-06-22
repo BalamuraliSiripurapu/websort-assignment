@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mandali:wght@400;700&family=Jacques+Francois:wght@400;700&display=swap&');
+.Form-container {
+    width: 100%;
+}
+.input-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    padding-left: 16px;
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        margin-top: 96px;
+        margin-bottom: 96px;
+    }
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+    margin-top: 6px;
+    @media screen and (min-width: 768px) {
+        width: 26%;
+        align-items: center;
+    }
+}
+
+.input-label {
+    color: #D1F5FF;
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    @media screen and (min-width: 768px) {
+        font-size: 30px;
+    }
+}
+
+.user-input {
+    width: 255px;
+    border: none;
+    border-bottom: 2px solid #E83E40;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 14px;
+    @media screen and (min-width: 768px) {
+        margin-top: 36px;
+        margin-bottom: 36px;
+        font-size: 25px;
+    }
+}
+
+
+.message-input {
+    width: 182px;
+    height: 37px;
+    border: 2px solid #E83E40;
+    background-color: #000000; 
+    margin-top: 16px;
+    outline: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 14px;
+    @media screen and (min-width: 768px) {
+        width: 401px;
+        height: 71px;
+        margin-top: 36px;
+        font-size: 25px;
+    }
+}
+
+.submit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 104px;
+    height: 24px;
+    border-radius: 19px;
+    background-color: #DD5151;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 36px;
+    @media screen and (min-width: 768px) {
+        width: 270px;
+        height: 45px;
+    }
+}

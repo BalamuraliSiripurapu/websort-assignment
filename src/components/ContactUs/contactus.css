@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mandali:wght@400;700&family=Jacques+Francois:wght@400;700&display=swap&');
+
+.contact-us-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.contact-us-responsive-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+}
+
+.contact-us-banner-container {
+    background-image: url("https://res.cloudinary.com/dejfd8kle/image/upload/v1750401771/image_19_i1yodd.png");
+    background-size: cover;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    @media screen and (min-width: 768px) {
+        height: 500px;
+        padding: 100px;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+}
+
+.banner-details {
+    display: flex;
+    flex-direction: column;
+    @media screen and (min-width: 768px) {
+      align-items: center; 
+    }
+}
+
+.contact-us-banner-heading { 
+    color: #000000;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    @media screen and (min-width: 768px) {
+        font-size: 60px;
+    }
+}
+
+.contact-us-banner-description {
+    color: #000000;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    max-width: 280px;
+    margin: 0px;
+    padding: 0px;
+    @media screen and (min-width: 768px) {
+        font-size: 20px;
+        max-width: 365px;
+        line-height: 28px;
+    }
+}
+.contact-us-content-container {
+  background-color: #0B0014;
+  flex: 1;
+}
+.contact-us-form-container {
+    background-image: url("https://res.cloudinary.com/dejfd8kle/image/upload/v1750412777/image_20_x0ypxb.png");
+    background-size: cover;
+    height: 510px;
+    padding: 16px;
+    @media screen and (min-width: 768px) {
+        background-image: url("https://res.cloudinary.com/dejfd8kle/image/upload/v1750415385/image_20_1_qn30mu.png");
+        height: 868px;
+        margin: 16px 48px;
+    }
+}
+.contact-us-heading{
+    color: #FFFFFF;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    @media screen and (min-width: 768px) {
+        font-size: 50px;
+    }
+}
+
+.contact-us-description {
+    color: #FFFFFF;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 100%;
+    @media screen and (min-width: 768px) {
+        font-size: 30px;
+    }
+}
+
+
+
+.contact-us-address-container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 36px;
+    @media screen and (min-width: 768px) {
+        margin-bottom: 64px;
+    }
+}
+
+.address-text {
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    @media screen and (min-width: 768px) {
+        font-size: 40px;
+    }
+}
+
+.map-image-address-info-container {
+    display: flex;
+    align-items: center;
+}
+
+.google-map-image {
+    width: 350px;
+    height: 244px;
+    @media screen and (min-width: 768px) {
+        width: 791px;
+        height: 540px;
+    }
+}
+
+.address-info-card {
+    margin-left: 64px;
+    width: 298px;
+    height: 218px;
+    border: 1px solid #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
+}
+
+
+.address-info {
+    color: #FFF9F9;
+    font-family: "Mandali";
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 36px;
+    letter-spacing: 0%;
+}

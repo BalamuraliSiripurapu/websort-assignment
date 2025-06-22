@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mukta:wght@400;700&family=Jacques+Francois:wght@400;700&display=swap&');
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px;
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 64px;
+    }   
+}
+
+.order-changed-service-item {
+    @media screen and (min-width: 768px) {
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+}
+
+.service-image {
+    width: 243px;
+    height: 260px;
+    @media screen and (min-width: 768px) {
+        width: 522px;
+        height: 500px;
+    } 
+}
+
+.service-item-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    margin-right: 16px;
+    @media screen and (min-width: 768px) {
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+}
+
+.service-item-name {
+    color: #FFFFFF;
+    font-family: "Mukta";
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 24px;
+    @media screen and (min-width: 768px) {
+        font-size: 40px;
+    }  
+}
+
+.service-item-description {
+    color: #FFFFFF;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    @media screen and (min-width: 768px) {
+        font-size: 30px;
+        line-height: 36px;
+    } 
+}
+
+.know-more-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 122px;
+    height: 32px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    outline: none;
+    cursor: pointer;
+    align-self: flex-start;
+    @media screen and (min-width: 768px) {
+        display: none;
+    } 
+}
