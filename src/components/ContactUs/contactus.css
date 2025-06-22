@@ -72,6 +72,7 @@
     background-size: cover;
     height: 510px;
     padding: 16px;
+    width: 100%;
     @media screen and (min-width: 768px) {
         background-image: url("https://res.cloudinary.com/dejfd8kle/image/upload/v1750415385/image_20_1_qn30mu.png");
         height: 868px;
